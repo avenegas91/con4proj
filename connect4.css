@@ -1,8 +1,14 @@
 /* game board table */
+body {
+  background-image: url(https://en.pimg.jp/030/963/416/1/30963416.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 #board td {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   border: solid 1px #666;
 }
 
@@ -24,5 +30,5 @@
 }
 
 #column-top td:hover {
-  background-color: gold;
+  background-color: rgb(55, 221, 33);
 }
